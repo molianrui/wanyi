@@ -1,0 +1,144 @@
+html,body{
+	margin: 0;
+	font:normal normal 14px "Microsoft YaHei","sans-serif";
+	width: 100%;
+	background-color: #e3e3e3
+}
+body,ul,ol,dl,p,h3,h1,h2 {
+	margin: 0;
+	padding: 0;
+}
+ul,ol,li {
+	list-style: none;
+}
+h1{
+	font-size: 24px;line-height: 1;font-weight: 400;
+}
+h2{
+	font-size: 14px;display: inline-block;width: auto;
+	font-weight: 400;
+}
+h3{
+	font-size: 20px;font-weight: 350
+}
+h4{
+	font-size: 28px;font-weight: 700;line-height: 1;
+	float: left;margin: 0 20px 0 0;height: 28px;
+}
+h5{
+	font-size: 16px;float: left;color: #333;margin: 0;font-weight: 400
+}
+h6{
+	font-size: 12px;float: right;margin: 8px 0 0 0;font-weight: 400;
+}
+small{
+	padding-top: 13px;display: inline-block;line-height: 1;
+	font-size: 14px;float: left;
+}
+a.right{
+	display: inline-block;line-height: 1;margin-left: 30px;
+	padding-top: 14px;font-size: 14px;cursor: pointer;
+	float: right;
+}
+a.right2{
+	display: inline-block;line-height: 1;margin: 14px 13px 0 13px;
+	font-size: 14px;cursor: pointer;float: right;
+}
+b.right3{
+	display: inline-block;line-height: 1;
+	margin-top: 14px;cursor: pointer;float: right;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+.img{
+	display: inline-block;
+}
+.cbig>li .cbig1{
+	transition-duration: 1s
+}
+.cbig>li:hover .cbig1{
+	transform: scale(1.1);
+}
+h4:hover,a.right:hover,
+.xp>ul>li>div:nth-child(3):hover,.rqti div.img:hover,
+.first>li>div:nth-child(3):hover,.xsg1>div:nth-child(1):hover,
+h6:hover,.fls>ul>li>ul>li>div>div:nth-child(1):hover,
+.fls>ul>li>div>div>div:nth-child(1):hover,a.right2:hover,
+.body>div>ul>li>div:nth-child(3):hover{
+	color: #b4a078
+}
+.head>div>div:nth-child(1):hover,.head>div>div:nth-child(2):hover>a,
+.head>div>ul>li:hover{
+	color: #fff
+}
+@keyframes gund{
+	0%{
+		left: 0px
+	}
+	33.33%{
+		left: -367.5px
+	}
+	66.66%{
+		left: -735px
+	}
+	99.99%{
+		left: -1102.5px
+	}
+	99.991%{
+		left: 0
+	}
+	100%{
+		left: 0
+	}
+}
+@keyframes htp{
+	12.5%{
+		background-image: url(../images/p1.jpg);
+	}
+	25%{
+		background-image: url(../images/p2.jpg);
+	}
+	37.5%{
+		background-image: url(../images/p3.jpg);
+	}
+	50%{
+		background-image: url(../images/p4.jpg);
+	}
+	62.5%{
+		background-image: url(../images/p05.jpg);
+	}
+	75%{
+		background-image: url(../images/p6.jpg);
+	}
+	87.5%{
+		background-image: url(../images/p7.jpg);
+	}
+	100%{
+		background-image: url(../images/chi.jpg);
+	}
+}
+@keyframes gund1{
+	0%{
+		transform: translate3d(0px 0 0);
+	}
+	25%{
+		transform: translate3d(-367.5px 0 0);
+	}
+	50%{
+		transform: translate3d(-735px 0 0);
+	}
+	75%{
+		transform: translate3d(-1102.5px 0 0);
+	}
+	100%{
+		
+	}
+}
+
+
+
+
+
+
